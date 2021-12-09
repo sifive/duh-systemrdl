@@ -1,0 +1,44 @@
+{
+  "name": "duh-systemrdl",
+  "version": "0.1.0",
+  "description": "Import SystemRDL into DUH",
+  "author": "SiFive",
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "eslint lib && nyc -r=text -r=lcov mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sifive/duh-systemrdl.git"
+  },
+  "keywords": [],
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "bugs": {
+    "url": "https://github.com/sifive/duh-systemrdl/issues"
+  },
+  "homepage": "https://github.com/sifive/duh-systemrdl#readme",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "tree-sitter": "^0.20.0",
+    "tree-sitter-systemrdl": "^0.6.1",
+    "json5": "^2.1.1"
+  },
+  "devDependencies": {
+    "@drom/eslint-config": "^0.10.0",
+    "eslint": "^8.0.1",
+    "http-server": "^14.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^9.1.3",
+    "nyc": "^15.0.0"
+  },
+  "eslintConfig": {
+    "extends": "@drom/eslint-config/eslint4/node8"
+  }
+}
