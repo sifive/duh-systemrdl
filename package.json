@@ -28,17 +28,17 @@
   },
   "homepage": "https://github.com/sifive/duh-systemrdl#readme",
   "dependencies": {
-    "commander": "^8.3.0",
-    "tree-sitter": "^0.20.0",
+    "commander": "^9.4.1",
+    "tree-sitter": "^0.20.1",
     "tree-sitter-systemrdl": "^0.7.0",
-    "json5": "^2.1.1"
+    "json5": "^2.2.1"
   },
   "devDependencies": {
     "@drom/eslint-config": "^0.10.0",
-    "eslint": "^8.0.1",
-    "http-server": "^14.0.0",
-    "chai": "^4.2.0",
-    "mocha": "^9.1.3",
+    "eslint": "^8.26.0",
+    "http-server": "^14.1.1",
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0",
     "nyc": "^15.0.0"
   },
   "eslintConfig": {
