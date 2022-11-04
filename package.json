@@ -1,6 +1,6 @@
 {
   "name": "duh-systemrdl",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Import SystemRDL into DUH",
   "author": "SiFive",
   "license": "Apache-2.0",
